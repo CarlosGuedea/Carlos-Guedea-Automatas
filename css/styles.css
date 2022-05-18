@@ -77,8 +77,8 @@ footer{
 .grid3{
     display: grid;
     grid-template-columns: 33.3% 33.3% 33.3%;
-    align-items: center;
-    max-width: min-content;
+    justify-items: center;
+    
 }
 
 .datos{
