@@ -97,8 +97,9 @@ footer{
     .grid3{
         display: grid;
         grid-template-columns: 100%;
+        object-fit: contain;
     }
     .img__footer{
-        object-fit: contain;
+        
     }
 }
