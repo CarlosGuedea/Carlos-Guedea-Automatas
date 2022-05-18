@@ -86,6 +86,7 @@ footer{
 
 .img__footer{
     align-items: center;
+    max-width: 30%;
 }
 
 @media (max-width:768px){
