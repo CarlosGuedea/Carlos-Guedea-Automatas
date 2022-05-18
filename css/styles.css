@@ -78,7 +78,7 @@ footer{
     display: grid;
     grid-template-columns: 33.3% 33.3% 33.3%;
     align-items: center;
-    width: max-content;
+    width: auto;
 }
 
 .datos{
@@ -86,7 +86,7 @@ footer{
 }
 
 .img__footer{
-    width: auto;
+    
     align-items: center;
 }
 
