@@ -78,6 +78,7 @@ footer{
     display: grid;
     grid-template-columns: 33.3% 33.3% 33.3%;
     align-items: center;
+    width: fit-content;
 }
 
 .datos{
@@ -98,4 +99,5 @@ footer{
         display: grid;
         grid-template-columns: 100%;
     }
+    
 }
