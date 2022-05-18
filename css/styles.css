@@ -78,6 +78,7 @@ footer{
     display: grid;
     grid-template-columns: 33.3% 33.3% 33.3%;
     align-items: center;
+    object-fit: contain;
 }
 
 .datos{
@@ -86,7 +87,6 @@ footer{
 
 .img__footer{
     align-items: center;
-    max-width: 30%;
 }
 
 @media (max-width:768px){
