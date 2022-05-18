@@ -78,7 +78,6 @@ footer{
     display: grid;
     grid-template-columns: 33.3% 33.3% 33.3%;
     align-items: center;
-    width: auto;
 }
 
 .datos{
@@ -86,7 +85,6 @@ footer{
 }
 
 .img__footer{
-    
     align-items: center;
 }
 
@@ -100,6 +98,6 @@ footer{
         grid-template-columns: 100%;
     }
     .img__footer{
-        width: min-content;
+        width: 30%;
     }
 }
