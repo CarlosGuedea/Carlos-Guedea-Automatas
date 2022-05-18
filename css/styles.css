@@ -54,11 +54,12 @@ a{
 
 .articulo__titulo{
     text-decoration: underline;
+    text-align: center;
 }
 
 .articulo__autor{
     color:darkgrey;
-
+    text-align: center;
 }
 
 .articulo__descripcion{
