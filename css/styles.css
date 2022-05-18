@@ -92,7 +92,7 @@ footer{
     .grid{
         display: grid;
         grid-template-columns: 100%;
-        width: auto;
+
     }
     .grid3{
         display: grid;
