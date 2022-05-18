@@ -78,7 +78,7 @@ footer{
     display: grid;
     grid-template-columns: 33.3% 33.3% 33.3%;
     align-items: center;
-    object-fit: contain;
+    max-width: min-content;
 }
 
 .datos{
