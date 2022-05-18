@@ -96,7 +96,7 @@ footer{
     .grid3{
         display: grid;
         grid-template-columns: 100%;
-        object-fit: contain;
+        
         padding-right: 2rem;
     }
     .img__footer{
