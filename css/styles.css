@@ -98,6 +98,6 @@ footer{
         grid-template-columns: 100%;
     }
     .img__footer{
-        width: 30%;
+        max-width: 30%;
     }
 }
