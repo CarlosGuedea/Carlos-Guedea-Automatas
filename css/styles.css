@@ -47,6 +47,9 @@ a{
 
 .articulo{
     background-color: bisque;
+    margin-right: 1rem;
+    margin-left: 1rem;
+    margin-bottom: 1rem;
 }
 
 .articulo__titulo{
@@ -60,12 +63,6 @@ a{
 
 .articulo__descripcion{
     text-align: justify;
-}
-
-.img{
-    margin-top: 3rem;
-    display:flex;
-    align-items: center;
 }
 
 footer{
@@ -83,6 +80,10 @@ footer{
 
 .datos{
     margin-top: 9rem;
+}
+
+.img__footer{
+    width: auto;
 }
 
 @media (max-width:768px){
