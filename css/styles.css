@@ -99,5 +99,7 @@ footer{
         display: grid;
         grid-template-columns: 100%;
     }
-    
+    .img__footer{
+        width: min-content;
+    }
 }
