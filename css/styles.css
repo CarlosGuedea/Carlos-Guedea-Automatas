@@ -76,7 +76,7 @@ footer{
 
 .grid3{
     display: grid;
-    grid-template-columns: 33.3% 33.3% 33.3%;
+    grid-template-columns: 50% 50%;
     justify-items: center;
 }
 
