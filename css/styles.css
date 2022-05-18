@@ -95,9 +95,8 @@ footer{
     }
     .grid3{
         display: grid;
-        grid-template-columns: 100%;
-        
-        padding-right: 2rem;
+        grid-template-columns: 100%;        
+        justify-items: center;
     }
     .img__footer{
     }
