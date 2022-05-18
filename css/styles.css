@@ -99,6 +99,6 @@ footer{
         grid-template-columns: 100%;
     }
     .img__footer{
-        max-width: 30%;
+        object-fit: contain;
     }
 }
