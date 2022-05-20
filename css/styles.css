@@ -67,8 +67,6 @@ a{
 }
 
 .informacion{
-    display: grid;
-    grid-template-columns: 100%;
     text-align: justify;
 }
 
