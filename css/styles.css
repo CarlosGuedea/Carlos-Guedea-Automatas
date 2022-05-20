@@ -66,6 +66,25 @@ a{
     text-align: justify;
 }
 
+.informacion{
+    display: grid;
+    grid-template-columns: 100%;
+    text-align: justify;
+}
+
+.informacion__encabezado{
+    text-align: center;
+}
+
+.informacion__video{
+    text-align: center;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+
 footer{
     margin: 0;
     background-color: grey;
