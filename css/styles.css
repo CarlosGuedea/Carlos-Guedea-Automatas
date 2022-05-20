@@ -111,10 +111,9 @@ footer{
         grid-template-columns: 100%;
     }
     .informacion__img{
-        max-width: fit-content;
-        max-height: fit-content;
+        max-width: 90%;
+        max-height: 90%;
     }
-    
     
     .grid3{
         display: grid;
