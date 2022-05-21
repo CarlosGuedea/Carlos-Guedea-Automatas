@@ -82,6 +82,10 @@ a{
     font-weight: bold;
 }
 
+.informacion__img{
+    text-align: center;
+}
+
 
 footer{
     margin: 0;
