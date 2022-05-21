@@ -114,7 +114,7 @@ footer{
         display: grid;
         grid-template-columns: 100%;
     }
-    .informacion__img{
+    .responsive{
         max-width: 90%;
         max-height: 90%;
     }
