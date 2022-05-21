@@ -86,6 +86,10 @@ a{
     text-align: center;
 }
 
+.responsive{
+    max-width: 90%;
+    max-height: 90%;
+}
 
 footer{
     margin: 0;

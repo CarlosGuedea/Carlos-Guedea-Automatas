@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Carlos Guedea automatas</title>
+    <link rel="stylesheet" href="CARLOS GUEDEA AUTOMATAS/css/nomalice.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Oxygen&family=PT+Sans:ital,wght@0,700;1,400&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <a href="index.html">
+        <h1 class="titulo">CARLOS GUEDEA AUTOMATAS</h1>
+      </a>
+    </header>
+    <div class="informacion">
+      <h2 class="informacion__encabezado">Formas Normales de Chomsky</h2>
+      <p>
+        Las gramaticas libres de contexto son aquellas que están clasificadas
+        como gramaticas formales. Es decir, que no vana formar parte de ningún
+        lenguaje natural como el español o el inglés. Funcionan como las reglas
+        para el orden los símbolos por los cuales está formado un abecedario en
+        particular.
+      </p>
+      <p>
+        Es un hecho conocido que toda gramatica libre de contexto puede ser
+        transformada a la forma normal de Chomsky. De tal forma que los
+        lenguajes generados son equivalentes.
+      </p>
+      <p>Podemos encontrar algunas ventajas:</p>
+      <p class="bold">1.- Los árboles de derivación son binarios</p>
+      <p class="bold">2.- La forma de sus reglas es más simple</p>
+      <p>
+        Existe un algoritmo que permite transformar una gramática libre de
+        contexto en una Forma Normal de Chomsky, sin embargo, la cantidad de
+        reglas generadas al hacer la trnasformación depende del número de reglas
+        en la gramática incial, así como de otras características.
+      </p>
+      <p>
+        En la siguiente imagen podemos ver un árbol de una gramatica libre de
+        contexto y como este no es binario, es decir, un nodo puede tener más de
+        dos hijos:
+      </p>
+      <div class="informacion__img">
+        <img
+          class="responsive"
+          src="img/img8.png"
+          alt="árbol libre de contexto"
+        />
+      </div>
+      <p>
+        La siguiente imagen es del mismo lenguaje, pero una vez que es
+        transformado en la Forma de Chomsky, este se vuelve binario, es decir,
+        que cada nodo tiene un máximo de dos hijos:
+      </p>
+      <div class="informacion__img">
+        <img class="responsive" src="img/img9.png" alt="árbol FNC" />
+      </div>
+      <p>
+        El siguiente es un algoritmo usado para hacer la conversión entre una
+        Gramatica Libre de Contexto y un Forma Normal de Chomsky:
+      </p>
+      <div class="informacion__img">
+        <img class="responsive" src="img/img10.png" alt="algoritmo FNC" />
+      </div>
+      <p></p>
+      <div class="informacion__video">
+        <iframe
+          width="400"
+          height="250"
+          src="https://www.youtube.com/embed/VN_8xyf-uK0"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
+      </div>
+    </div>
+
+    <footer>
+      <div class="grid3">
+        <div class="datos">
+          <p>Autor: Carlos Eduardo Guedea Guerrero</p>
+          <p>Materia: lenguajes y automatas</p>
+          <p>No. control: 19460796</p>
+          <p>Docente: Hugo Gerardo Castrejon Cerro</p>
+        </div>
+        <div class="img">
+          <img src="img/img3.png" alt="Tec Colima" />
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
